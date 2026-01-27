@@ -8,21 +8,21 @@ Upper Sorbian is a low-resource language with very limited parallel data availab
 
 ## Project Structure
 
-├── data/
-│ ├── train/ # parallel training data
-│ └── test/ # parallel testing data
-├── experiments/
-│ ├── nllb-finetuning/
-│ │  ├── train.py          # Fine-tuning script using 
-│ │  ├── config.json # Hyperparameters
-│ │  └── requirements.txt
-│ └── qwen-finetuning/
-│    
-├── evaluation/
-│ ├── nllb-evaluation.py # BLEU, ChrF++, COMET
-│ 
-├── models/   # Placeholder for models/checkpoints
-├── docs/     # Visuals, diagrams, poster PDF
-├── README.md
-└── LICENSE
+├── data/  
+│ ├── train/ # parallel training data  
+│ └── test/ # parallel testing data  
+├── experiments/  
+│ ├── nllb-finetuning/  
+│ │  ├── train.py          # Fine-tuning script using  
+│ │  ├── config.json # Hyperparameters  
+│ │  └── requirements.txt  
+│ └── qwen-finetuning/  
+│  
+├── evaluation/  
+│ ├── nllb-evaluation.py # BLEU, ChrF++, COMET  
+│  
+├── models/   # Placeholder for models/checkpoints  
+├── docs/     # Visuals, diagrams, poster PDF  
+├── README.md  
+└── LICENSE  
 
