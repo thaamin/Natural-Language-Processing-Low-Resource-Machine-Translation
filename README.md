@@ -1,4 +1,4 @@
-# Low-Resource Machine Translation: Upper Sorbian → German
+# Low-Resource Machine Translation: German → Upper Sorbian
 
 This repository contains code, data processing scripts, and evaluation tools for fine-tuning **NLLB** and **Qwen** models on Upper Sorbian → German translation. The project focuses on **low-resource language translation** using Hugging Face **PEFT/LoRA** and advanced prompting strategies.
 
