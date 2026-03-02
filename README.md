@@ -13,3 +13,10 @@ This repository contains the code, data, and documentation for our research proj
 * `qwen/`
   Contains all experimental code for the Qwen models (including Zero-Shot, Few-Shot, LoRA, and Full Fine-Tuning setups).
 
+## 📖 Project Overview
+
+Upper Sorbian (`hsb`) is a critically low-resource West Slavic language. By fine-tuning both NLLB and Qwen on the exact same limited parallel corpus, we investigate how different model architectures adapt to a truly data-scarce scenario.
+
+**Key Research Questions:**
+1. To what extent can NLLB and Qwen adapt to Upper Sorbian with very limited parallel data?
+2. Can a general-purpose LLM outperform a dedicated Machine Translation Model in a low-resource setting?
