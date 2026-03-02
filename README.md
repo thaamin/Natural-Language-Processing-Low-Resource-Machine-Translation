@@ -20,3 +20,13 @@ Upper Sorbian (`hsb`) is a critically low-resource West Slavic language. By fine
 **Key Research Questions:**
 1. To what extent can NLLB and Qwen adapt to Upper Sorbian with very limited parallel data?
 2. Can a general-purpose LLM outperform a dedicated Machine Translation Model in a low-resource setting?
+
+## 📊 Main Results
+
+| Model | Architecture | chrF++ | SacreBLEU |
+| :--- | :--- | :--- | :--- |
+| NLLB Baseline | Encoder-Decoder | 23.72 | 6.25 |
+| NLLB (Full Fine-Tuned) | Encoder-Decoder | 63.09 | 26.01 |
+| Qwen Baseline | Decoder-only | 4.24 | 0.06 |
+| Qwen (Full Fine-Tuned) | Decoder-only | 79.19 | 61.60 |
+
