@@ -30,3 +30,7 @@ Upper Sorbian (`hsb`) is a critically low-resource West Slavic language. By fine
 | Qwen Baseline | Decoder-only | 4.24 | 0.06 |
 | Qwen (Full Fine-Tuned) | Decoder-only | 79.19 | 61.60 |
 
+## 🎓 Acknowledgements
+We would like to sincerely thank the LRZ group for providing us with access to GPU resources. Having these accounts was essential for running our experiments and training our models, and without this computational support, this project would not have been possible in its current form.
+
+We are also very grateful to Dr. Shu Okabe for his continuous guidance throughout the project. His weekly feedback, constructive comments, and support during challenges helped us improve our work significantly and stay on the right track. We truly appreciate the time and effort he invested in supporting our project.
